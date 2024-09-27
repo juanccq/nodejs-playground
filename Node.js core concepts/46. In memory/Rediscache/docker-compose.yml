@@ -1,0 +1,8 @@
+version: "3.8"
+name: redis-example
+services:
+  redisservice:
+    container_name: myredis
+    image: redis:7.0.8
+    ports:
+      - 6379:6379
